@@ -13,4 +13,11 @@ public class CalculatorTest {
         myCalc = new Calculator();
         assertEquals(40,myCalc.add(20,20));
     }
+
+    @Test
+    public void testMultiply()
+    {
+        myCalc = new Calculator();
+        assertEquals(100,myCalc.multiply(10,10));
+    }
 }
