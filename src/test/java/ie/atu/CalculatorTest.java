@@ -20,4 +20,11 @@ public class CalculatorTest {
         myCalc = new Calculator();
         assertEquals(100,myCalc.multiply(10,10));
     }
+
+    @Test
+    public void testSubtract()
+    {
+        myCalc = new Calculator();
+        assertEquals(5,myCalc.subtract(10,5));
+    }
 }
